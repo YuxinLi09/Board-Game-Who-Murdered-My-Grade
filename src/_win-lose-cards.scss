@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+html, body, header, footer, hgroup, nav, article, section, figure,
+figcaption, h1, h2, h3, ul, li, body, div, p, img
+{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+}
+
+header {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1em;
+    width: 1000px;
+    background-color: #18453B;
+    color: #ffffff;
+    background-position: center;
+}
+
+body
+{
+    text-align: center;
+    background-position: center top;
+    background-color: lightgrey;
+
+}
+
+h1{
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 3em;
+    color: white;
+    padding-top: 0.5em;
+}
+
+h2{
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+a:link {
+    color: #000000;
+}
+
+a:visited {
+    color: #888888;
+}
+
+div.cardspage {
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center top;
+    width: 1000px;
+    height: 470px;
+    text-align: center;
+    background-color: white;
+    p {
+        //text-align: left;
+        padding: 1em;
+    }
+    h3 {
+        font-size: 1.8em;
+        text-align: center;
+        padding-top: 4em;
+    }
+}
+
+div.cardspage {
+    div.card {
+        display: inline-block;
+    }
+    div.print-only {
+        display: none;
+    }
+
+    @media print {
+        div.no-print {
+            display: none;
+        }
+
+        div.print-only {
+            display: inline-block;
+        }
+    }
+
+    .card-cap {
+        margin: 0;
+        padding: 0;
+    }
+
+    div p
+    {
+        padding-bottom: 1em;
+    }
+
+    form div.button
+    {
+        padding-bottom: 1em;
+    }
+
+    .center-box {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .center-text {
+        text-align: center;
+    }
+
+    .fancy-card {
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    .char
+    {
+        font-style: normal;
+        color: black;
+    }
+
+    .card-figure {
+        border: solid green medium;
+        border-radius: 0.5em;
+        width: 75px;
+        height: 100px;
+        margin-right: 1em;
+    }
+
+    h3
+    {
+        padding-bottom: 1em;
+        text-align: center;
+    }
+
+
+}
