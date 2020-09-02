@@ -1,0 +1,48 @@
+
+h1{
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 3em;
+    color: black;
+    padding-top: 0.5em;
+}
+
+h2{
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+
+
+header {
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    background-color: #ffffff;
+    color: #ffffff;
+    background-position: center;
+}
+nav {
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    background-color: #18453B;
+}
+
+body
+{
+    text-align: center;
+    background-position: center top;
+    background-color: lightgrey;
+}
+
+p {
+    margin: 1em 2em;
+}
+
+a:link {
+    color: #000000;
+}
+
+a:visited {
+    color: #888888;
+}
