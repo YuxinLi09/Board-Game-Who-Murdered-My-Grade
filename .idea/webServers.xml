@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="577bd15e-c943-4c8f-8837-07a1658212f0" name="webdev-project3" url="http://webdev.cse.msu.edu/~liyuxin4/project3/">
+        <fileTransfer host="black.cse.msu.edu" port="22" rootFolder="/user/liyuxin4/classweb/project3" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
